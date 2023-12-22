@@ -1,6 +1,7 @@
 import random
 import string
 
+
 # Defining the password generator
 def generate_password(min_length, numbers=True, special_characters=True):
     letters = string.ascii_letters # alphabets, lower and upper case
